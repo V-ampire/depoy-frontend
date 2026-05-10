@@ -1,0 +1,33 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.main-area {
+  position: relative;
+  height: 100dvh;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.unavailable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  padding: 24px;
+  text-align: center;
+  color: var(--tg-theme-hint-color, #999);
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+  flex-shrink: 0;
+}

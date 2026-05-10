@@ -1,0 +1,47 @@
+.tabs {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tabs__nav {
+  display: flex;
+  border-bottom: 1px solid #e5e4e7;
+  flex-shrink: 0;
+}
+
+.tabs__btn {
+  flex: 1;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-size: 16px;
+  color: #6b6375;
+  transition: color 0.2s, border-color 0.2s;
+  margin-bottom: -1px;
+}
+
+.tabs__btn--active {
+  color: #08060d;
+  border-bottom-color: #08060d;
+}
+
+.tabs__content {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.tabs__panel {
+  height: 100%;
+  padding: 16px 0;
+  font-size: 16px;
+  color: #6b6375;
+  overflow-y: auto;
+  box-sizing: border-box;
+}

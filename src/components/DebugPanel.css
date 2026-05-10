@@ -1,0 +1,92 @@
+.debug-panel {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  font-size: 13px;
+  font-family: monospace;
+}
+
+.debug-panel__toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 14px;
+  background: none;
+  border: none;
+  color: #89b4fa;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.debug-panel__toggle-arrow {
+  font-size: 10px;
+  color: #6c7086;
+}
+
+.debug-panel__body {
+  padding: 0 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.debug-panel__row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.debug-panel__row--column {
+  flex-direction: column;
+}
+
+.debug-panel__row--space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.debug-panel__copy {
+  background: #313244;
+  color: #89b4fa;
+  border: none;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-family: monospace;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.debug-panel__copy:hover {
+  background: #45475a;
+}
+
+.debug-panel__label {
+  color: #a6e3a1;
+  flex-shrink: 0;
+}
+
+.debug-panel__value {
+  color: #f38ba8;
+}
+
+.debug-panel__pre--error {
+  color: #f38ba8;
+  border: 1px solid #f38ba830;
+}
+
+.debug-panel__pre {
+  margin-top: 4px;
+  padding: 8px;
+  background: #181825;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #fab387;
+  font-size: 11px;
+  line-height: 1.5;
+}
